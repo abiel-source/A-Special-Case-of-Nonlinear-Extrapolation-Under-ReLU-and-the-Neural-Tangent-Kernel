@@ -1,5 +1,5 @@
 **A Special Case of Nonlinear Extrapolation Under ReLU and the Neural Tangent Kernel**
-[Click here to view the paper (PDF)](paper.pdf)
+[Click here to view the paper (PDF)](A_Special_Case_of_Nonlinear_Extrapolation_Under_ReLU_and_the_Neural_Tangent_Kernel.pdf)
 
 *Author(s)*: Abiel J. Kim
 

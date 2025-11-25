@@ -23,7 +23,7 @@ The paper is organized as follows. The proof of Theorem 1 is presented in §A.4 
 
 <img width="1868" height="520" alt="image" src="https://github.com/user-attachments/assets/f6f5ef7b-6577-4b06-8efa-de597345933d" />
 
-The closed-form of the asymptotic pseudo-inverse of the NTK gram matrix has extensive consequences throughout the paper.
+> The closed-form of the asymptotic pseudo-inverse of the NTK gram matrix forms the basis of the manuscript and is induced from how I define the training set as being infinitely distant from the origin, along any direction
 
 <img width="1842" height="160" alt="image" src="https://github.com/user-attachments/assets/741d4349-cce1-4363-98bf-d46a7412df1c" />
 

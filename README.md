@@ -19,4 +19,19 @@ It is this recognition of the distinguishable cases that motivates the extrapola
 
 The paper is organized as follows. The proof of Theorem 1 is presented in §A.4 and will depend on the results of Lemmas 1 and 2, which are proven with continuity in §A.2 and §A.3 respectively. Our problem setup induces a special case of the NTK gram matrix which must be studied in §A.1 to set the stage for the remainder of the mathematics.
 
+**THEORETICAL CONTRIBUTIONS**
+
+<img width="1868" height="520" alt="image" src="https://github.com/user-attachments/assets/f6f5ef7b-6577-4b06-8efa-de597345933d" />
+
+The closed-form of the asymptotic pseudo-inverse of the NTK gram matrix has extensive consequences throughout the paper.
+
+<img width="1842" height="160" alt="image" src="https://github.com/user-attachments/assets/741d4349-cce1-4363-98bf-d46a7412df1c" />
+
+Theorem 1 Proof Sketch:
+Theorem 1 is the main contribution of this paper and states that an extremely wide NTK predictor with ReLU activations that is trained on a dataset which is extremely distant from the origin will converge to a quadratic extrapolator when evaluated near the origin. That is, Theorem 1 states that the predictor's first and second directional derivatives exist and all higher-order derivatives are $0$. And the proof of Theorem 1, which is presented in §A.4, depends on the results of Lemmas 1 and 2. Lemma 1 is a generalized algebraic manipulation and states that the directional derivative of the NTK predictor can be expressed in terms of the derivatives of the indicator. The significance of Lemma 1 is most clear when we leverage the Dirac-delta's so-called sifting property, also known as the sampling property. We note that the derivative of the Heaviside indicator is the Dirac-delta, and applies itself nicely when viewing the predictor's derivative as an integral. Lemma 2 completes the second half of Theorem 1's proof by stating that the partial derivatives of the beta components with respect to the bias component of a feature direction $\mathbf{w}{d+1}$ are always $0$ for any order derivative past the second. The significance of Lemma 2 is clear when we see in §A.2 that the $z$-th derivative of the predictor depends on the $(z-1)$-th and $(z-2)$-th partial derivatives of the beta components. It is not difficult to see that the quadratic-order persists when taking the $z$-th derivative of $f{NTK}$.
+
+<img width="1780" height="482" alt="image" src="https://github.com/user-attachments/assets/2b5f508d-7290-4d69-a78f-d8529afe48fa" />
+
+[Click here to view the paper (PDF)](A_Special_Case_of_Nonlinear_Extrapolation_Under_ReLU_and_the_Neural_Tangent_Kernel.pdf)
+
 > **Status:** This manuscript is a work in progress.
